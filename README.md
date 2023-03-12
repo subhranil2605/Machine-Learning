@@ -6,6 +6,7 @@ This repository contains implementations of various types of machine learning al
 
 - k-means 📈
 - k-medoids 📊
+- PAM (Partition Around Medoids) 🎇
 - DBSCAN 🌐
 
 ## Classification

@@ -1,1 +1,46 @@
-*.ipynb_checkpoints
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Python environment
+venv/
+env/
+.vscode/
+.idea/
+
+# Packages
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# Logs
+*.log
+
+# Development
+*.swp
+*~
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore .pyc files in the root directory
+*.pyc
+
+# Ignore any local files that should not be pushed to the repository
+config.py
+credentials.ini
+
+# Ignore all image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tif
+*.tiff
+
+# Ignore CSV and JSON files
+*.csv
+*.json
