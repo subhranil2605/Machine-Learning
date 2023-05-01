@@ -44,3 +44,5 @@ credentials.ini
 # Ignore CSV and JSON files
 *.csv
 *.json
+
+Datasets/
