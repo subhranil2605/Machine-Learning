@@ -34,9 +34,9 @@ class LinearRegression:
             loss, forward_info = self.__forward_loss(X, y)
             losses[i] = loss
 
-##            if len(losses) > 2:
-##                if np.abs(losses[len(losses) - 1] - losses[len(losses) - 2]) < 0.01:
-##                    break
+            # if len(losses) > 2:
+            #     if np.abs(losses[len(losses) - 1] - losses[len(losses) - 2]) < 0.01:
+            #         break
                 
             
             loss_grads = self.__loss_gradients(forward_info)
