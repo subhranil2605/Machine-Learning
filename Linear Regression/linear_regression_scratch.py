@@ -67,6 +67,7 @@ class LinearRegression:
         assert X.ndim != 1
 
         self.theta: ndarray = np.zeros((X.shape[1], 1))
+        
         self.intercept_ = 0 if not self.fit_intercept else self.theta[0]
         self.coef_ = self.theta if not self.fit_intercept else self.theta[1:]
 
@@ -143,4 +144,3 @@ if __name__ == "__main__":
     plt.plot(losses)
     
     plt.show()
-    
