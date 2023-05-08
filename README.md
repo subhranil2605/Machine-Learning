@@ -2,6 +2,13 @@
 
 This repository contains implementations of various types of machine learning algorithms using Python.
 
+
+## Linear Models
+
+- Linear Regession (Batch Gradient Descent + SGD) 🛳
+- Locally Weighted Regression 🍊
+- Logistic Regression 🎷
+
 ## Clustering
 
 - k-means 📈
@@ -24,7 +31,3 @@ This repository contains implementations of various types of machine learning al
 ## Contributing
 
 If you'd like to contribute to this project, please fork the repository and create a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
