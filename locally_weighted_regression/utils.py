@@ -1,5 +1,7 @@
 import numpy as np
 
+np.random.seed(1002)
+
 def generate_sample_data():
     # Generate Sample Data
     x = np.arange(0, 5, 0.1)
