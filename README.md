@@ -2,7 +2,6 @@
 
 This repository contains implementations of various types of machine learning algorithms using Python.
 
-
 ## Linear Models
 
 - Linear Regession (Batch Gradient Descent + SGD) 🛳
